@@ -1,0 +1,23 @@
+﻿connectionStrings = Data Source=.;Initial Catalog=MyeStore;Integrated Security=True;
+
+scaffold-DbContext "Data Source=.;Initial Catalog=MyeStore;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+Quy tat solid: la giam su phu thuoc giua cac class voi nhau
+
+AsQueryable (): th?c hi?n query.
+Contains (ki?m tra xem có ch?a chu?i không)
+----------------------------PHAN TRANG
+Take(): lấy n ptuw dau tien
+skip(): bỏ
+trang đó nhân với n. 
+vidu: 
+qui dinh: n = 3 (item), 
+so trang: p= 0
+---cach tinh:
+skip(p*n).take(p)
+
+
+
+
+takewhile(): lấy có điều kiện
+skipwhile(): bỏ có điều kiện
